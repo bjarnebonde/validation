@@ -1,5 +1,2 @@
 #!/bin/bash
-FILENAME="\*\\'\"DevOps\"\'\\*$\?\*\*\*\*\*:)"
-touch ${FILENAME}
-echo "Hello DevOps" > ${FILENAME}
-echo "" >> ${FILENAME}
+printenv | grep ^TERM
