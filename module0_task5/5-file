@@ -1,0 +1,4 @@
+#!/bin/bash
+FILENAME="\*\\'\"DevOps\"\'\\*$\?\*\*\*\*\*:)"
+touch ${FILENAME}
+echo "Hello DevOps\n" > ${FILENAME}
